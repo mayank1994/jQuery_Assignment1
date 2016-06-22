@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Jquery1: Assignmrnt1.2</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<button id="b1">Hide Input Elements. </button>
+
+<button id="b2">Show Input Elements. </button>
+
+<script type="text/javascript">
+	$("#b1").click( function(){
+		$("input").hide();
+	});
+	$("#b2").click( function(){
+		$("input").show();
+	}); 
+
+</script>
+
+
+
+</head>
+<body>
+
+<form name='demo_form'>
+First name: <input type="text" name="fname"><br>
+Last name: <input type="text" name="lname"><br>
+<input type="submit" value="Submit">
+</form>
+
+	
+
+</body>
+</html>

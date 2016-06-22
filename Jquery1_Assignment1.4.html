@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Jquery1: Assignment1.4</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+
+<script>
+	$(document).ready(function()
+	{
+		$("button").click(function(){
+		$("a").attr('href','http://yahoo.com');
+		$("a").text("Yahoo");
+		});
+	});
+	</script>
+
+</head>
+
+
+<body>
+	<a href="http://google.com">Google</a><br><br>
+	<button>Change HyperLink</button>
+</body>
+</html>
